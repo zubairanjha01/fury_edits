@@ -1,0 +1,349 @@
+
+/*1-section*/
+
+#top-section{
+    padding: 5% 12%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/main.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-logo{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    transition: 00.5s;
+}
+
+.navbar-logo:hover{
+    cursor: pointer;
+    font-size: 40px;
+    color: #FD3A69;
+}
+
+.skills{
+    padding-top: 60px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+.skills-heading-1{
+
+}
+
+.buttons{
+    height: 40px;
+    background: none;
+    color: white;
+    border: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0% 3%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+}
+
+.buttons-vip{
+    height: 40px;
+    background: #28DF99;
+    color: black;
+    border: none;
+    border-width: 2px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0% 3%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+}
+
+.buttons:hover{
+    background-color: white;
+    color: black;
+    border-color: white;
+    text-decoration: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.buttons-vip:hover{
+    background-color: #FD3A69;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    font-size: 20px;
+}
+
+/*1-section*/
+
+/*2-section*/
+
+.middle-section{
+    padding: 8% 12%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.buttons-social-click{
+    height: 40px;
+    background: #28DF99;
+    color: black;
+    border: none;
+    border-width: 2px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0% 3%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+}
+
+.middle-section-heading-1{
+font-size: 50px;
+}
+
+.middle-section-para-1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.buttons-social-click:hover{
+    background-color: #FD3A69;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.social-icons{
+    padding-right: 10px;
+}
+
+/*2-section*/
+
+/*3-section*/
+
+.middle-section-2{
+    padding: 8% 12%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/main.png);
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.middle-section-2-heading-1{
+    font-size: 40px;
+}
+
+/*3-section*/
+
+/*4-section*/
+
+.software-download-section{
+    padding: 8% 12%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.software-download-section-heading-1{
+    font-size: 30px;
+}
+
+.software-download-section-img{
+    width: 80px;
+    transition: 00.5s;
+}
+
+.software-download-section-img:hover{
+    width: 90px;
+    filter:drop-shadow(1px 1px 2px black);
+}
+
+/*4-section*/
+
+/*5-section*/
+
+.footer-section{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/main.png);
+    background-size: cover;
+    background-position: center;
+    padding: 4% 12%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.footer-section-heading-1{
+   font-size: 20px;
+}
+
+.footer-links{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-right: 10px;
+}
+
+/*5-section*/
+
+
+@media (max-width: 1028px) {
+    .navbar-logo{
+        text-align: center;
+        font-size: 100px;
+        padding-top: 50px;
+    }
+
+    .navbar-logo:hover{
+        font-size: 80px;
+    }
+
+    .skills-heading-1{
+        font-size: 70px;
+        padding-bottom: 50px;    
+    }
+
+    .buttons{
+        height: 80px;
+        background: none;
+        color: white;
+        border: solid;
+        border-width: 2px;
+        border-radius: 50px;
+        text-align: center;
+        padding: 0% 3%;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        text-decoration: none;
+        cursor: pointer;
+        font-family: 'Montserrat', sans-serif;
+        transition: 0.5s;
+        font-size: 40px;
+    }
+    
+    .buttons-vip{
+        height: 80px;
+        background: #28DF99;
+        color: black;
+        border: none;
+        border-width: 2px;
+        border-radius: 50px;
+        text-align: center;
+        padding: 0% 3%;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        text-decoration: none;
+        cursor: pointer;
+        font-family: 'Montserrat', sans-serif;
+        transition: 0.5s;
+        font-size: 40px;
+    }
+    
+    .buttons:hover{
+        background-color: white;
+        color: black;
+        border-color: white;
+        text-decoration: none;
+        outline: none;
+        font-size: 50px;
+    }
+    
+    .buttons-vip:hover{
+        background-color: #FD3A69;
+        color: white;
+        text-decoration: none;
+        outline: none;
+        font-size: 50px;
+    }
+
+    .middle-section-heading-1{
+        font-size: 90px;
+        }
+
+    .middle-section-para-1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 50px;
+        }
+        
+    
+        .buttons-social-click{
+            height: 80px;
+            background: #28DF99;
+            color: black;
+            border: none;
+            border-width: 2px;
+            border-radius: 50px;
+            text-align: center;
+            padding: 0% 3%;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            text-decoration: none;
+            cursor: pointer;
+            font-family: 'Montserrat', sans-serif;
+            transition: 0.5s;
+            font-size: 40px;
+        }
+        
+        .buttons-social-click:hover{
+            background-color: #FD3A69;
+            color: white;
+            text-decoration: none;
+            outline: none;
+            font-size: 50px;
+        }
+        
+        .social-icons{
+            padding-right: 30px;
+        }
+        
+        .middle-section-2-heading-1{
+            font-size: 80px;
+        }
+        
+
+        .software-download-section-heading-1{
+            font-size: 80px;
+        }
+        
+        .software-download-section-img{
+            width: 180px;
+            transition: 00.5s;
+        }
+        
+        .software-download-section-img:hover{
+            width: 190px;
+            filter:drop-shadow(1px 1px 2px black);
+        }
+        
+        .footer-section-heading-1{
+            font-size: 30px;
+         }
+         
+         .footer-links{
+             text-decoration: none;
+             font-size: 40px;
+             color: white;
+             padding-right: 10px;
+         }
+
+         .footer-section{
+             padding: 6% 12%;
+        }
+        
+    
+  }
