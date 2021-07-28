@@ -1,0 +1,280 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Lexend', sans-serif;
+}
+
+p{
+    font-family: 'Questrial', sans-serif;
+}
+
+h6{
+    font-family: 'Lexend', sans-serif;
+}
+
+h2{
+    font-family: 'Marcellus', serif;
+}
+
+.all-links{
+    text-decoration: none;
+    outline: none;
+}
+
+#header{
+    padding: 0% 1%;
+    font-family: 'Lexend', sans-serif;
+    background-color: #171717;
+}
+
+.btn-styles{
+    background: transparent;
+    border: none;
+    margin-right: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.navbar-brand{
+    
+}
+
+.btn-styles-1{
+    background-color: #F8485E;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.btn-styles:hover{
+    border-bottom: solid 3px#F8485E;
+}
+
+#main{
+    padding: 10% 10%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url(images/2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+#main h1{
+    font-size: 50px;    
+}
+
+.btn-styles-main-sec{
+    background: #fff;
+    color: #000;
+    border: none;
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+    transition: 0.5s;  
+    margin-top: 30px;
+    width: 250px;
+}
+
+.btn-styles-main-sec:hover{
+    color: #fff;
+    background-color: #F8485E;
+}
+
+.search-field{
+    background: transparent;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    border-bottom: solid 1px #fff;
+    width: 60%;
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.search-field-btn{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+
+::placeholder{
+    color: #fff;
+    opacity: 0.5;
+}
+
+.search-field-btn:hover{
+    letter-spacing: 1px;
+}
+
+#partners-sec{
+    padding: 5% 10%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#partners-sec h1{
+    margin-bottom: 40px;
+}
+
+.partners-img-size{
+    width: 180px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.carousel-control-prev-icon{
+    background-color: #000;
+    border-radius: 100%;
+}
+
+.carousel-control-next-icon{
+    background-color: #000;
+    border-radius: 100%;
+}
+
+#ceo-sec{
+    padding: 5% 10%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /*background-image:linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url(images/1.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ceo-sec h1{
+    margin-bottom: 40px;
+}
+
+.card{
+    text-align: left;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card-text{
+    color: #000;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+
+.card-center-style{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+#info-about{
+    padding: 5% 10%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #055052;
+}
+
+#info-about p{
+    font-size: 30px;
+    color: #fff;
+}
+
+#info-about h2{
+    font-size: 50px;
+    color: #fff;
+}
+
+#footer{
+    padding: 5% 10%;
+    text-align: left;
+    background-color: #171717;
+    color: #fff;
+}
+
+.col-left{
+    text-align: center;
+}
+
+.col-right{
+    text-align: center;
+}
+
+.fab, .fas{
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+    transition: 0.6s;
+}
+
+.fab:hover{
+    color: #055052;
+}
+
+.fas:hover{
+    color: #055052;
+}
+
+.designer-num-style{
+    color: #fff;
+    transition: 0.6s;
+}
+
+.designer-num-style:hover{
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.last-text-footer{
+    text-align: center;
+}
+
+
+
+
+
+@media (max-width: 1028px){
+    #main{
+        padding: 25% 10%;
+    }
+
+    .size-iframe{
+        width: 100%;
+        height: 0%;
+    }
+
+    .card{
+        margin-left: 0px;
+        margin-right: 0px; 
+    }
+
+    .partners-img-size{
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
